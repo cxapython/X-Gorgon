@@ -1,16 +1,21 @@
-from hashlib import md5
-from time import time
+import hashlib
+import time
 
 
 class signature:
-    def __init__(self, params: str, data: str, cookies: str) -> None:
+    def __init__(
+        self, 
+        params: str, 
+        data: str, 
+        cookies: str
+    ) -> None:
 
         self.params = params
         self.data = data
         self.cookies = cookies
 
     def hash(self, data: str) -> str:
-        return str(md5(data.encode()).hexdigest())
+        return str(hashlib.md5(data.encode()).hexdigest())
 
     def calc_gorgon(self) -> str:
         gorgon = self.hash(self.params)
@@ -26,12 +31,10 @@ class signature:
         return gorgon
 
     def get_value(self):
-        gorgon = self.calc_gorgon()
-
-        return self.encrypt(gorgon)
+        return self.encrypt(self.calc_gorgon())
 
     def encrypt(self, data: str):
-        unix = int(time())
+        unix = int(time.time())
         len = 0x14
         key = [
             0xDF,
