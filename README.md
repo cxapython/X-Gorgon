@@ -1,7 +1,7 @@
 # TikTok X-Gorgon 0404
 TikTok X-Gorgon and X-Khronos signature generator. 
 
-**Make sure to star this project if you found it useful! ⭐**
+**Make sure to star this project! ⭐**
 
 # Example Usage 
 ```py
