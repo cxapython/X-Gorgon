@@ -37,3 +37,9 @@ False -> Status code 200, but returns an empty response
 # Contact
 * Telegram: https://t.me/aithedev
 * Discord: ai#4026
+
+## Donate
+- **Bitcoin**: bc1qzxcx980ntsdgmghp6azvrmhmujp7fwupv8hs4e
+- **Ethereum**: 0x9C61D7F7B74Df1e984E7014A82125b371314f42e
+- **Litecoin**: LgAFbASRPoUnA71Nd5B9n1hByYoj62bGNS
+- **Tron**: TASJuEHr2ZEMpzmejraUmCp8huqaA2Qasc
