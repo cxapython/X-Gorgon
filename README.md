@@ -36,4 +36,4 @@ False -> Status code 200, but returns an empty response
 
 # Contact
 * Telegram: https://t.me/aithedev
-* Discord: ai#4026
+* Discord: ai#4444
