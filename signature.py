@@ -1,3 +1,6 @@
+# www.aithe.dev
+# github.com/aithedev/X-Gorgon
+
 import hashlib
 import time
 
