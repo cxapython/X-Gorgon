@@ -35,5 +35,6 @@ False -> Status code 200, but returns an empty response
 ```
 
 # Contact
-* Telegram: https://t.me/aithedev
-* Discord: ai#4444
+- **Website**: https://aithe.dev/
+- **Telegram**: t.me/aithedev
+- **Discord**: ai#4444
